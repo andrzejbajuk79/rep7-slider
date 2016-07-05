@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.picture {
+  height: 400px;
+  width:600px;
+
+}
+.carousel {
+  
+  position: relative;
+    overflow: hidden;
+    border: 2px solid brown;
+    width: 600px;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative  ;
+
+}
+
+.carousel ul{
+
+   width: 3021px;
+    position: relative;
+     list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.carousel ul li {
+  
+   float: left;
+   display: inline-block;
+   
+}
+#left,#right {
+  font-size:  40px;
+  opacity:  .7;
+  position:   absolute; 
+  z-index:  222;
+  cursor:   pointer;
+}
+#left:hover,#right:hover {
+  color:#FFF;
+}
+#left {
+  left: 10px;
+  top:190px;
+}
+#right {
+  right: 10px;
+  top: 190px;
+}
+.fa-circle-o {
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+  left:300px;
+  z-index: 222;
+  color: grey;
+  border-radius: 45px;
+ background-color: grey;
+}
+#circle1 {
+  left: 260px
+}
+#circle2 {
+  left: 340px;
+}
+#circle {
+ background-color: grey;
+}
